@@ -232,6 +232,83 @@ GROUP BY job_type;
 ### Academic Performance based on Parents' education (excluding none as it does not have enough data to reach a conclusion)
 
 ```sql
+Select mother_education, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
+From Math
+Group by mother_education
+Having mother_education != 'none'
+
+
+
+Select father_education, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
+From Math
+Group by father_education
+Having father_education != 'none'
+```
+
+<br/><br/>
+
+### Percentage of students who want to pursue higher education based on their parents' job types. 
+
+```sql
+Select mother_education, ROUND(CAST(SUM(CASE WHEN higher_ed = 1 THEN 1 ELSE 0 END) as FLOAT)/ count(*),2) as higher_ed_percentage
+From Math
+Group by mother_education
+Having mother_education != 'none'
+
+
+
+Select father_education, ROUND(CAST(SUM(CASE WHEN higher_ed = 1 THEN 1 ELSE 0 END) as FLOAT)/ count(*),2) as higher_ed_percentage
+From Math
+Group by father_education
+Having father_education != 'none'
+```
+
+<br/><br/>
+
+### Guardian's identity impact on performance
+
+```sql
+Select guardian, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
+From Math
+Group by guardian
+```
+
+<br/><br/>
+
+### Correlation between family support and Average Final grade
+
+```sql
+Select CASE WHEN family_support = 0 THEN 'Has support' ELSE 'No support' END AS Family_Support, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
+From Math
+Group by Family_support
+```
+
+<br/><br/>
+
+### Relationship between parents' education and School choice reason
+
+
+<br/><br/>
+
+### Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+### Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+### Dividing the Location column:
+
+```sql
 
 ```
 
@@ -261,7 +338,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -269,7 +346,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -277,7 +354,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -285,7 +362,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -293,7 +370,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -301,7 +378,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -309,7 +386,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -317,7 +394,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -325,7 +402,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -333,7 +410,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -341,63 +418,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -408,13 +429,13 @@ GROUP BY job_type;
 
 <br/><br/>
 
-## Power BI Enhancements:
+### Power BI Enhancements:
 
 
 
 <br/><br/>
 
-## Data visualization:
+### Data visualization:
 
 ### Summary of Dashboard Insights
 
