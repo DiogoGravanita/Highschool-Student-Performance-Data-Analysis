@@ -34,7 +34,7 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 1. Area Chart of Average Grades by Study Time: Visualizes the average grades achieved by students based on their weekly study time.
 2. Stacked Column Chart of Count of Family Relationship Level: Displays the distribution of family relationship levels among students using a stacked column chart.
-3. Scatter Plot of Grades by Family Support and Absences: Shows the relationship between student grades and their level of family support, with absences as an additional factor.
+3. Scatter Plot of Grades by Family Support and Absences: Shows the relationship between student grades and absences, with their level of family support as an additional factor.
 4. Pie Chart with Student Health Percentages: Illustrates the distribution of student health statuses using a pie chart.
 5. Bar Charts of Average Grades by Family Size, Father's Job, and Parents' Education: Provides separate bar charts to compare average grades based on family size, father's job, and parents' education levels.
 6. Pie Chart of Different Guardian Percentages: Represents the percentage distribution of different guardians among students using a pie chart.
