@@ -259,7 +259,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-### Academic Performance based on Parents' education (excluding none as it does not have enough data to reach a conclusion)
+### Academic Performance based on Parents' education (excluding none as it does not have enough data)
 
 ```sql
 Select mother_education, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
