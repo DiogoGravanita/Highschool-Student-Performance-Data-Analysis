@@ -167,7 +167,7 @@ Group by guardian
 
 <br/><br/>
 
-### Travel time based on the Address type (since the data isn't clear I created a middle ground for each entry, however the results will obviously not be very accurate)
+### Travel time based on the Address type (since the data isn't clear I created a middle ground for each entry at the cost of result accuracy)
 
 ```sql
 Select address_type, 
@@ -210,7 +210,6 @@ Group by family_size
 ### Education levels of parents comparison analysis
 
 ```sql
-
 WITH subquery AS (
     SELECT mother_job AS job_type, 'mother' AS parent_type FROM Math
     UNION ALL
@@ -230,7 +229,7 @@ GROUP BY job_type;
 
 <br/><br/>
 
-### Dividing the Location column:
+### Academic Performance based on Parents' education (excluding none as it does not have enough data to reach a conclusion)
 
 ```sql
 
