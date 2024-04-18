@@ -59,48 +59,69 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 <br/><br/>
 
-## Data Analysis:
+# SQL Data Analysis:
 <br/><br/>
 
 
 
-## Dividing the Location column:
+## Socio-demographic Exploration:
+
+
+<br/><br/>
+
+
+### Effect of parental cohabitation on grades
 
 ```sql
-
+Select parent_status, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
+From Math
+Group by parent_status
 ```
 
 <br/><br/>
 
-
-
-### FIxing Launch Site and Launch center column issues:
-
-
-<br/><br/>
-
-### Remove useless Column:
-
-
-<br/><br/>
-
-## Dividing the Location column:
+### Percentage of different parental cohabitation stats
 
 ```sql
-
+WITH parent_status_counts AS (
+    SELECT parent_status, COUNT(*) AS Total_count,(COUNT(*) / CAST((SELECT COUNT(*) FROM Math) AS float)) * 100 AS Percentage
+    FROM 
+        Math
+    GROUP BY 
+        parent_status
+)
+SELECT parent_status, Total_count,ROUND(Percentage, 2) AS Percentage
+FROM 
+    parent_status_counts
+ORDER BY
+    parent_status
 ```
 
 <br/><br/>
 
-## Dividing the Location column:
+## Rural vs urban address types average performance (casted as float to get decimal numbers)
 
 ```sql
-
+Select address_type, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
+From Math
+Group by address_type
 ```
 
 <br/><br/>
 
-## Dividing the Location column:
+## Distribution of internet access based on Address type
+
+```sql
+SELECT address_type, COUNT(*) AS total_amount, SUM(CASE WHEN internet_access = 1 THEN 1 ELSE 0 END) AS with_internet_access
+FROM 
+    Math
+GROUP BY 
+    address_type
+```
+
+<br/><br/>
+
+## Average final grade based on the guardian
 
 ```sql
 
