@@ -160,12 +160,14 @@ GROUP BY
 ## Average final grade based on the guardian
 
 ```sql
-
+Select guardian, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
+From Math
+Group by guardian
 ```
 
 <br/><br/>
 
-## Dividing the Location column:
+## Travel time based on the Address type (since the data isn't clear I created a middle ground for each entry, however the results will obviously not be very accurate)
 
 ```sql
 
