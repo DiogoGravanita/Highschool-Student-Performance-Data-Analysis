@@ -420,59 +420,54 @@ Group by sex
 ### Impact of school support on grades
 
 ```sql
-
+Select CASE WHEN school_support = 0 THEN 'No support' ELSE 'Support' END as School_Support, ROUND(AVG(CAST(final_grade as float)),2) as average_grade
+From Math
+Group by school_support
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+### Relationship between Class Failures and Final Grades
 
 ```sql
-
+Select class_failures, ROUND(AVG(CAST(final_grade as float)),2) as average_grade
+From Math
+Group by class_failures
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+### Student Performance over the quarters
 
 ```sql
-
+Select ROUND(AVG(CAST(grade_1 as float)),2) as First_Quarter, ROUND(AVG(CAST(grade_2 as float)),2) as Second_Quarter, ROUND(AVG(CAST(final_grade as float)),2) as Final_Grade
+From Math
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+### Student performance over the quarters related to the absences
 
 ```sql
-
+Select CASE 
+			WHEN absences < 5 THEN  'very low'
+			WHEN absences < 10 THEN 'low'
+			WHEN absences < 15 THEN 'medium'
+			WHEN absences < 25 THEN 'high'
+			WHEN absences >= 25 THEN 'very high'
+			Else 'uknown' END as Absence, 
+			ROUND(AVG(CAST(grade_1 as float)),2) as First_Quarter, ROUND(AVG(CAST(grade_2 as float)),2) as Second_Quarter, ROUND(AVG(CAST(final_grade as float)),2) as Final_Grade, COUNT(*) as Student_Number
+From Math
+GROUP BY CASE 
+			WHEN absences < 5 THEN  'very low'
+			WHEN absences < 10 THEN 'low'
+			WHEN absences < 15 THEN 'medium'
+			WHEN absences < 25 THEN 'high'
+			WHEN absences >= 25 THEN 'very high'
+			Else 'uknown' END
 ```
 
 <br/><br/>
-
-### Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-### Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-### Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
 
 <br/><br/>
 
