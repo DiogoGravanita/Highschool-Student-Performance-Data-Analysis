@@ -27,7 +27,7 @@ The data set was downloaded from the following website: https://www.kaggle.com/d
 
 
 ## Charts and Visualizations:
-
+<br/><br/>
 We'll create a variety of charts and visualizations to present the data effectively:
 
 
