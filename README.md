@@ -135,7 +135,7 @@ ORDER BY
 
 <br/><br/>
 
-## Rural vs urban address types average performance (casted as float to get decimal numbers)
+### Rural vs urban address types average performance (casted as float to get decimal numbers)
 
 ```sql
 Select address_type, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
@@ -145,7 +145,7 @@ Group by address_type
 
 <br/><br/>
 
-## Distribution of internet access based on Address type
+### Distribution of internet access based on Address type
 
 ```sql
 SELECT address_type, COUNT(*) AS total_amount, SUM(CASE WHEN internet_access = 1 THEN 1 ELSE 0 END) AS with_internet_access
@@ -157,7 +157,7 @@ GROUP BY
 
 <br/><br/>
 
-## Average final grade based on the guardian
+### Average final grade based on the guardian
 
 ```sql
 Select guardian, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
@@ -167,7 +167,70 @@ Group by guardian
 
 <br/><br/>
 
-## Travel time based on the Address type (since the data isn't clear I created a middle ground for each entry, however the results will obviously not be very accurate)
+### Travel time based on the Address type (since the data isn't clear I created a middle ground for each entry, however the results will obviously not be very accurate)
+
+```sql
+Select address_type, 
+					ROUND(SUM(CASE 
+							WHEN travel_time = '<15 min.' THEN 7
+							WHEN travel_time = '15 to 30 min.' THEN 22.5
+							WHEN travel_time = '30 min. to 1 hour' THEN 45
+							WHEN travel_time = '>1 hour' THEN 75 
+							ELSE 0
+						END)/ COUNT(*), 2) AS average_travel_time
+From Math
+Group by address_type
+```
+
+Another method of comparison:
+
+```sql
+select address_type, travel_time, count(travel_time)
+from Math
+Group by address_type, travel_time
+Order by address_type
+```
+
+<br/><br/>
+
+### Larger families vs smaller families average performance
+
+```sql
+Select family_size, ROUND(AVG(CAST(final_grade as float)),3) as Average_grade
+From Math
+Group by family_size
+```
+
+<br/><br/>
+
+## Education and Parental Background:
+
+<br/><br/>
+
+### Education levels of parents comparison analysis
+
+```sql
+
+WITH subquery AS (
+    SELECT mother_job AS job_type, 'mother' AS parent_type FROM Math
+    UNION ALL
+    SELECT father_job AS job_type, 'father' AS parent_type FROM Math
+) 
+
+SELECT 
+    job_type,
+    COUNT(CASE WHEN parent_type = 'mother' THEN 1 END) AS mother_job_count,
+    COUNT(CASE WHEN parent_type = 'father' THEN 1 END) AS father_job_count,
+    ROUND((COUNT(CASE WHEN parent_type = 'mother' THEN 1 END) / CAST(COUNT(*) AS float) * 100), 2) AS mother_job_percentage,
+    ROUND((COUNT(CASE WHEN parent_type = 'father' THEN 1 END) / CAST(COUNT(*) AS float) * 100), 2) AS father_job_percentage
+FROM subquery
+GROUP BY job_type;
+
+```
+
+<br/><br/>
+
+### Dividing the Location column:
 
 ```sql
 
@@ -175,7 +238,7 @@ Group by guardian
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -183,7 +246,7 @@ Group by guardian
 
 <br/><br/>
 
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
@@ -191,39 +254,7 @@ Group by guardian
 
 <br/><br/>
 
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-## Dividing the Location column:
+### Dividing the Location column:
 
 ```sql
 
