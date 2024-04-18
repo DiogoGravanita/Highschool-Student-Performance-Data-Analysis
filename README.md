@@ -287,37 +287,57 @@ Group by Family_support
 
 ### Relationship between parents' education and School choice reason
 
-
-<br/><br/>
-
-### Dividing the Location column:
-
 ```sql
-
+SELECT mother_education,
+    SUM(CASE WHEN school_choice_reason = 'home' THEN 1 ELSE 0 END) AS close_to_home,
+    SUM(CASE WHEN school_choice_reason = 'reputation' THEN 1 ELSE 0 END) AS school_reputation,
+    SUM(CASE WHEN school_choice_reason = 'course' THEN 1 ELSE 0 END) AS course_preference,
+    SUM(CASE WHEN school_choice_reason = 'other' THEN 1 ELSE 0 END) AS other
+FROM Math
+GROUP BY mother_education
+HAVING mother_education != 'none'
+ORDER BY mother_education
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+## Health and Lifestyle Factors:
+
+<br/><br/>
+
+### Relationship between study time and academic performance
 
 ```sql
-
+Select study_time, ROUND(AVG(CAST(final_grade as float)),2) as Average_grade
+From Math
+Group by study_time
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+### Relationship between weekday alcohol consumption and academic performance
 
 ```sql
-
+Select CASE 
+			WHEN weekday_alcohol = 1 THEN 'very low'
+			WHEN weekday_alcohol = 2 THEN 'low'
+			WHEN weekday_alcohol = 3 THEN 'medium'
+			WHEN weekday_alcohol = 4 THEN 'high'
+			WHEN weekday_alcohol = 5 THEN 'very high'
+			ELSE 'unknown' END AS Alcohol_consumption
+		,ROUND(AVG(CAST(final_grade as float)),2)
+From Math
+Group by weekday_alcohol
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+### Correlation between study time and weekday alcohol consumption
 
 ```sql
-
+Select study_time, ROUND(CAST(SUM(weekday_alcohol) as float)/count(*),2) as Alcohol_frequency
+From Math
+Group by study_time
 ```
 
 <br/><br/>
