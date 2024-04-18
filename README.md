@@ -25,22 +25,6 @@ The data set was downloaded from the following website: https://www.kaggle.com/d
 <br/><br/>
 
 
-## Key Performance Indicators (KPIs)
-
-We'll focus on the following KPIs to evaluate the performance and trends of space missions:
-
-
-
-1. Total Missions
-
-2. Mission Success Rate
-
-3. Average Mission Cost
-
-4. Countries Involved
-
-<br/><br/>
-
 
 ## Charts and Visualizations:
 
@@ -48,14 +32,19 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 
 
-1. Mission amount by Rocket/Country/Company/Year
-2. Average Price by Company
-3. Successful Missions by Country/Launch Center/Company
-4. Success rate by Country
-5. Mission status percentage
-6. Average Price by Country/Rocket/Company
-7. Total Cost by Year
-8. Mission by Rocket Status
+1. Area Chart of Average Grades by Study Time: Visualizes the average grades achieved by students based on their weekly study time.
+2. Stacked Column Chart of Count of Family Relationship Level: Displays the distribution of family relationship levels among students using a stacked column chart.
+3. Scatter Plot of Grades by Family Support and Absences: Shows the relationship between student grades and their level of family support, with absences as an additional factor.
+4. Pie Chart with Student Health Percentages: Illustrates the distribution of student health statuses using a pie chart.
+5. Bar Charts of Average Grades by Family Size, Father's Job, and Parents' Education: Provides separate bar charts to compare average grades based on family size, father's job, and parents' education levels.
+6. Pie Chart of Different Guardian Percentages: Represents the percentage distribution of different guardians among students using a pie chart.
+7. Bar Chart of Count of Each Address Type (Rural or Urban): Displays the count of students from rural and urban areas using a bar chart.
+8. Column Chart of Average Grades by Internet Access: Shows the average grades achieved by students based on their access to the internet at home.
+9. Area Chart of Average Grades by Travel Time: Visualizes the relationship between student grades and travel time to school using an area chart.
+10. Pie Chart of Free Time: Illustrates the distribution of free time after school among students using a pie chart.
+11. 4 Tables representative of Student grades categorized by the respective metrics of each page. 
+
+
 
 
 
