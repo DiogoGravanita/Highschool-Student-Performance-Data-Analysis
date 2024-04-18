@@ -342,55 +342,82 @@ Group by study_time
 
 <br/><br/>
 
-### Dividing the Location column:
+### Relationship between health status and involvement in extracurricular activities
 
 ```sql
-
+Select CASE WHEN activities = 0 THEN 'yes' ELSE 'no' END AS Activities, ROUND(CAST(SUM(health) as float)/count(*),2) as Average_health
+From Math
+Group by activities
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+### Average free time in comparison to study time:
 
 ```sql
-
+Select study_time, ROUND(CAST(SUM(free_time) as float)/count(*),2) as Free_time_average
+From Math
+Group by study_time
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+### Relationship between weekday alcohol and Class_failures
 
 ```sql
-
+Select CASE 
+			WHEN weekday_alcohol = 1 THEN 'very low'
+			WHEN weekday_alcohol = 2 THEN 'low'
+			WHEN weekday_alcohol = 3 THEN 'medium'
+			WHEN weekday_alcohol = 4 THEN 'high'
+			WHEN weekday_alcohol = 5 THEN 'very high'
+			ELSE 'unknown' END AS Alcohol_consumption, 
+			ROUND(AVG(CAST(class_failures as float)),2) as Average_class_failures
+From Math
+GROUP by weekday_alcohol
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+## General Academic Performance:
+
+
+<br/><br/>
+
+### Relationship between absences and final grades
 
 ```sql
-
+Select CASE 
+			WHEN absences < 5 THEN  'very low'
+			WHEN absences < 10 THEN 'low'
+			WHEN absences < 15 THEN 'medium'
+			WHEN absences < 25 THEN 'high'
+			WHEN absences >= 25 THEN 'very high'
+			Else 'uknown' END as Absence,
+			ROUND(AVG(CAST(final_grade as float)),2) as average_grade
+From Math
+Group by CASE 
+			WHEN absences < 5 THEN  'very low'
+			WHEN absences < 10 THEN 'low'
+			WHEN absences < 15 THEN 'medium'
+			WHEN absences < 25 THEN 'high'
+			WHEN absences >= 25 THEN 'very high'
+			Else 'uknown' END 
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
+### Comparison of Grades by Gender
 
 ```sql
-
+Select CASE WHEN sex = 'F' THEN 'Female' ELSE 'Male' END as Gender, ROUND(AVG(CAST(final_grade as float)),2) as average_grade
+From Math
+Group by sex
 ```
 
 <br/><br/>
 
-### Dividing the Location column:
-
-```sql
-
-```
-
-<br/><br/>
-
-### Dividing the Location column:
+### Impact of school support on grades
 
 ```sql
 
