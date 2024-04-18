@@ -59,7 +59,7 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 <br/><br/>
 
-## Attribute explanation for the Columns in the Table for better understanding: 
+## Column Attribute Explanation: 
 
 school - student's school (binary: "GP" - Gabriel Pereira or "MS" - Mousinho da Silveira)
 
