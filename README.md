@@ -47,7 +47,6 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 
 
-
 <br/><br/>
 
 <br/><br/>
@@ -60,14 +59,16 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 <br/><br/>
 
-## Data cleaning and preparation:
+## Data Analysis:
 <br/><br/>
 
 
 
-### Dividing the Location column:
+## Dividing the Location column:
 
+```sql
 
+```
 
 <br/><br/>
 
@@ -83,7 +84,238 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 <br/><br/>
 
-With the completion of the data cleaning process, our table is now primed for visualization. Despite encountering numerous entries with null values in the "Price" and "Time" columns, we opted to retain them for accurate mission status representation in our graphical analyses. This decision ensures that our visualizations provide a comprehensive view of mission success rates, accounting for all relevant data points. Particularly, since most of the null Price entries will be old entries, then we would be specifically removing many old values and it would greatly affect our accuracy in a negative way when it came to evaluating other dynamics not related to Time and Costs.
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
+## Dividing the Location column:
+
+```sql
+
+```
+
+<br/><br/>
+
 
 <br/><br/>
 
