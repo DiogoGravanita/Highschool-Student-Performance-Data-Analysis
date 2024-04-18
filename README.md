@@ -12,15 +12,15 @@ This project aims to analyze and visualize diverse high school student data usin
 
 ### Data Source
 
-The data set includes all space missions from 1957 to August 2022, including details on the location, date, and result of the launch, the company responsible, and the name, price, and status of the rocket used for the mission. The file will be added as "space_missions.csv". 
+The data set was downloaded from the following website: https://www.kaggle.com/datasets/dillonmyrick/high-school-student-performance-and-demographics?resource=download . The file will be added as "space_missions.csv". 
 
 ### Objectives
 
- 1. To clean, explore, and analyze space missions data sourced from various reliable sources.
+ 1. Data Exploration: Dive deep into the dataset to understand the demographics, academic metrics, and lifestyle factors of high school students.
 
- 2. To identify trends and patterns in space missions, including mission success rates, rocket usage, and launch locations.
+ 2. Interactive Dashboards: Create interactive dashboards and reports to visualize key insights and trends in student performance.
 
- 3. To create informative visualizations and dashboards using Power BI to present the findings in a clear and engaging manner.
+ 3. Statistical Analysis: Conduct statistical analysis to identify correlations and relationships between various factors and academic outcomes.
 
 <br/><br/>
 
