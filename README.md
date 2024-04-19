@@ -525,7 +525,32 @@ Converted the "internet access" column from a boolean to a string format. This m
 
 ## Summary of Dashboard Insights and Findings:
 
+- Study Time vs. Grades:
+There's a significant correlation between study time and average grades.  The average grades that students with less than 2 hours of study a week get is 10 out of 20 and at 5 to 10 hours about 11.5 out of 20. It seems that the 5+ hours a week mark is what creates the biggest difference in between grades as Students who dedicate more than 5 hours per week to studying tend to achieve higher average grades, surpassing those who study less intensively.
 
+- Family Relationship Levels:
+The stacked column chart illustrates varying levels of family relationship among students. A considerable portion of students reports good to excellent relationships, while a smaller percentage indicates poor family relationships.
+
+- Impact of Family Support and Absences on Grades:
+The scatter plot highlights the influence of absences on grades, showing a negative correlation as there is not a one single student with more than 25 absences getting higher than 11 out of 20 for a final grade. Conversely, the impact of family support appears inconclusive and requires further investigation.
+
+- Student Health Distribution:
+Student health is distributed across various categories, with a notable percentage reporting average to bad health. Understanding these health dynamics can inform interventions to support student well-being.
+
+- Family Size and Parental Education:
+Smaller families tend to correlate with better student grades, possibly due to increased parental attention. Additionally, parents' higher education levels significantly impact student performance, with children of highly educated parents achieving better grades.
+
+- Father's Occupation and Guardian Distribution:
+Students with fathers employed in teaching exhibit higher average grades, likely benefiting from parental involvement in academic matters. Guardianship is predominantly held by mothers, followed by fathers and other guardians.
+
+- Urban vs. Rural Living:
+The majority of students reside in urban areas, potentially indicating different educational and environmental factors compared to rural counterparts.
+
+- Internet Access and Travel Time:
+Students with internet access tend to achieve higher grades, suggesting a correlation between digital resources and academic success. Additionally, shorter travel times to school positively impact student performance, with most high-performing students having a commute of 15 minutes or less.
+
+- Free Time Distribution:
+Free time distribution among students varies, with a significant portion reporting average to low free time availability. Understanding these dynamics can inform strategies to balance academic workload and leisure activities effectively.
 
 
 <br/><br/>
