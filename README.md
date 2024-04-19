@@ -535,13 +535,13 @@ The stacked column chart illustrates varying levels of family relationship among
 The scatter plot highlights the influence of absences on grades, showing a negative correlation as there is not a one single student with more than 25 absences getting higher than 11 out of 20 for a final grade. Conversely, the impact of family support appears inconclusive and requires further investigation.
 
 - Student Health Distribution:
-Student health is distributed across various categories, with a notable percentage reporting average to bad health. Understanding these health dynamics can inform interventions to support student well-being.
+Student health is distributed across various categories, with a notable percentage reporting average to high health. Understanding these health dynamics can inform interventions to support student well-being.
 
 - Family Size and Parental Education:
-Smaller families tend to correlate with better student grades, possibly due to increased parental attention. Additionally, parents' higher education levels significantly impact student performance, with children of highly educated parents achieving better grades.
+Smaller families tend to correlate with better student grades, possibly due to increased parental attention. From the same graph we can also see that on average families where the parents are divorced/living apart usually harbour students with better grades. Additionally, parents' higher education levels very significantly impact student performance, with children of highly educated parents achieving better grades.
 
 - Father's Occupation and Guardian Distribution:
-Students with fathers employed in teaching exhibit higher average grades, likely benefiting from parental involvement in academic matters. Guardianship is predominantly held by mothers, followed by fathers and other guardians.
+Students with fathers employed in teaching exhibit higher average grades, likely benefiting from parental involvement in academic matters. Guardianship is predominantly held by mothers, followed by fathers and then other guardians.
 
 - Urban vs. Rural Living:
 The majority of students reside in urban areas, potentially indicating different educational and environmental factors compared to rural counterparts.
