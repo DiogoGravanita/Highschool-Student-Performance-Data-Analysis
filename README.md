@@ -10,11 +10,11 @@ This project aims to analyze and visualize diverse high school student data usin
 
 # Project Overview
 
-## Data Source
+### Data Source
 
 The data set was downloaded from the following website: https://www.kaggle.com/datasets/dillonmyrick/high-school-student-performance-and-demographics?resource=download . The file will be added as "space_missions.csv". 
 
-## Objectives
+### Objectives
 
  1. Data Exploration: Dive deep into the dataset to understand the demographics, academic metrics, and lifestyle factors of high school students.
 
