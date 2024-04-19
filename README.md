@@ -580,7 +580,7 @@ Free time distribution among students varies, with a significant portion reporti
 <br/><br/>
 ## Address Type affect on Performance:
 
-Students living in a Rural Area get an average of 9.5 out of 20 whereas students in an Urban Area get 10.6 out of 20. This is a significant descrepancy which shows the effect on the living area on the performance. This can be correlated to the travel time to school which seemingly affects performance as the school is located most certainly in an Urban area which is validated by the bigger percentage of students living in an Urban area and the ones coming from a Rural one require a bigger travel time.
+Students living in a Rural Area get an average of 9.5 out of 20 whereas students in an Urban Area get 10.6 out of 20. This is a significant descrepancy which shows the effect on the living area on the performance. This can be correlated to the travel time to school which seemingly affects performance as the school is located in an Urban area which is validated by the bigger percentage of students living in an Urban area and the average travel time of students within the urban area is less than those in the Rural Area.
 
 Also this is not entirely correlated by it's possible that some students living in a Rural Area might be living in worse conditions thatn the ones living in an urban area leading to a decreased studying environment at home. 
 
@@ -588,13 +588,17 @@ Also according to one of our queries, 20% of the students living in the Rural ar
 
 <br/><br/>
 
-## Average Price by Company:
+## Correlation between Guardian and Performance:
+
+Students whom their Guardian is the father bolster an average of 10.7, and the ones with a mother as the guardian, 10.5 out of 20. The grade difference is not big enough to conclude that there is a descrepancy between them. However, students with "other" as a Guardian get on average a 9.0 out of 20 and now this number shows that the guardian which probably is the person more involved with the student's day to day life heavily impacts their performance. 
+
+This impact might be due to students having "other" as a guardian might have more dysfunctional families which will in turn affect their school performance.
 
 
 
 <br/><br/>
 
-## Missions by Year:
+## Students aspirations related to paren
 
 
 
