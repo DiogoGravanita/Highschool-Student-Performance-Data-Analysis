@@ -277,7 +277,7 @@ Having father_education != 'none'
 
 <br/><br/>
 
-### Percentage of students who want to pursue higher education based on their parents' job types. 
+### Percentage of students who want to pursue higher education based on their parents' education. 
 
 ```sql
 Select mother_education, ROUND(CAST(SUM(CASE WHEN higher_ed = 1 THEN 1 ELSE 0 END) as FLOAT)/ count(*),2) as higher_ed_percentage
@@ -580,58 +580,26 @@ Free time distribution among students varies, with a significant portion reporti
 <br/><br/>
 ## Address Type affect on Performance:
 
-Students living in a Rural Area get an average of 9.5 out of 20 whereas students in an Urban Area get 10.6 out of 20. This is a significant descrepancy which shows the effect on the living area on the performance. This can be correlated to the travel time to school which seemingly affects performance as the school is located in an Urban area which is validated by the bigger percentage of students living in an Urban area and the average travel time of students within the urban area is less than those in the Rural Area.
+The place a student calls home plays a pivotal role in their academic journey. In our analysis, students residing in Rural Areas achieve an average grade of 9.5 out of 20, whereas their Urban counterparts soar to an average of 10.6. This stark contrast underscores the profound effect of living environments on academic outcomes. Moreover, this disparity could be attributed to factors such as commute time, with students in Urban Areas enjoying shorter travel times to school. The urban locale of the school itself could also contribute, with easier access to educational resources and facilities.
 
-Also this is not entirely correlated by it's possible that some students living in a Rural Area might be living in worse conditions thatn the ones living in an urban area leading to a decreased studying environment at home. 
-
-Also according to one of our queries, 20% of the students living in the Rural area do not have internet access whereas only 10% of those living in an urban area lack the internet access. All these factors can be intertwined to explain worse school performance.
+Furthermore, it's essential to consider the broader context. Students in Rural Areas may face challenges beyond academics, including limited internet access—20% lack internet compared to 10% in Urban Areas. These multifaceted dynamics intertwine to shape student performance, emphasizing the need for comprehensive support mechanisms.
 
 <br/><br/>
 
 ## Correlation between Guardian and Performance:
 
-Students whom their Guardian is the father bolster an average of 10.7, and the ones with a mother as the guardian, 10.5 out of 20. The grade difference is not big enough to conclude that there is a descrepancy between them. However, students with "other" as a Guardian get on average a 9.0 out of 20 and now this number shows that the guardian which probably is the person more involved with the student's day to day life heavily impacts their performance. 
+The identity of a student's guardian emerges as a significant influencer in academic performance. While students under paternal guardianship achieve an average grade of 10.7, maternal guardianship closely follows at 10.5 out of 20. However, those under 'other' guardianship exhibit a notable dip, averaging at 9.0. This divergence suggests that the guardian's role, likely the primary caregiver, profoundly impacts student outcomes.
 
-This impact might be due to students having "other" as a guardian might have more dysfunctional families which will in turn affect their school performance.
-
-
-
-<br/><br/>
-
-## Students aspirations related to paren
+This impact may extend beyond academic support, reflecting broader familial dynamics. Students under 'other' guardianship may navigate more challenging family situations, which could adversely affect their educational journey.
 
 
 
 <br/><br/>
 
-## Successful Missions by Country/Launch Center/Company:
+## Students aspirations related to parents' education:
 
+As showed by the prompt created in SQL, students whose parents achieve a higher level of education have a 99% chance of wanting to pursue it, where as students whose parents only have a primary level education on average have a 89% chance of wanting to pursue it. This is a pretty significant number drop as even students with parents who have the 5th to 9th grade and secondary school levels of education still stay at around 95% willingness to achieve a higher level of education.
 
-<br/><br/>
-
-## Success Rate by Country:
-
-
-
-<br/><br/>
-
-## Mission Status Percentage:
-
-
-
-<br/><br/>
-
-## Average Price by Country/Rocket/Company:
-
-
-<br/><br/>
-
-## Total Cost by Year:
-
-
-<br/><br/>
-
-## Mission by Rocket Status:
 
 
 
