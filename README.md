@@ -503,6 +503,20 @@ GROUP BY CASE
 
 ### Power BI Enhancements:
 
+- Conditional Sorting Columns:
+Created two conditional sorting columns for travel time and study time to facilitate better visualization and analysis.
+
+- Data Type Conversion:
+Changed data types from numerical to string for columns such as student health, family relationship, free time, social, weekday, and weekend alcohol. This adjustment enhances readability and supports more intuitive visualizations.
+
+- Sorting Column Creation:
+Generated sorting columns for the aforementioned categorical variables using Power Query. These sorting columns streamline data organization and enable easier navigation within visuals.
+
+- Text Formatting:
+Capitalized each word in parent's education and jobs, ensuring consistency and improving visual aesthetics. Additionally, adjusted "at_home" to "At Home" for enhanced readability and clarity in visualizations.
+
+- Boolean to String Conversion:
+Converted the "internet access" column from a boolean to a string format. This modification helps align the data representation with visualization requirements and user understanding.
 
 
 <br/><br/>
