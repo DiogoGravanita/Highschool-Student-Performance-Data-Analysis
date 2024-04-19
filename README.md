@@ -565,79 +565,65 @@ Free time distribution among students varies, with a significant portion reporti
 ![image](https://github.com/DiogoGravanita/Highschool-Student-Performance-Data-Analysis/assets/163042130/7422dc56-99d6-46b2-b458-4adb6db4a45d)
 
 <br/><br/>
+![image](https://github.com/DiogoGravanita/Highschool-Student-Performance-Data-Analysis/assets/163042130/e9b4b0fc-e3c2-48a8-963e-5484d53aa785)
 
+<br/><br/>
+![image](https://github.com/DiogoGravanita/Highschool-Student-Performance-Data-Analysis/assets/163042130/a363d7c7-ddc0-4e30-8c6e-d9b32c2057a2)
+
+
+<br/><br/>
+<br/><br/>
+# SQL Analysis Important Findings:
 <br/><br/>
 
 
 <br/><br/>
-<br/><br/>
-# Results/findings
-<br/><br/>
-
-
-## Key Performance Indicators (KPIs)
-
-
-
-
-1. Total Missions: 5000
-2. Mission Success Rate: 89,89%
-3. Average Mission Cost: 128.3 Million €
-4. Countries Involved: 22
-
-
-<br/><br/>
-
-
-## Charts and Visualizations Findings:
-
-<br/><br/>
-### Mission Amount by Rocket/Country/Company/Year:
+## Address Type affect on Performance:
 
 
 
 <br/><br/>
 
-### Average Price by Company:
+## Average Price by Company:
 
 
 
 <br/><br/>
 
-### Missions by Year:
+## Missions by Year:
 
 
 
 <br/><br/>
 
-### Successful Missions by Country/Launch Center/Company:
+## Successful Missions by Country/Launch Center/Company:
 
 
 <br/><br/>
 
-### Success Rate by Country:
-
-
-
-<br/><br/>
-
-### Mission Status Percentage:
+## Success Rate by Country:
 
 
 
 <br/><br/>
 
-### Average Price by Country/Rocket/Company:
+## Mission Status Percentage:
 
-
-<br/><br/>
-
-### Total Cost by Year:
 
 
 <br/><br/>
 
-### Mission by Rocket Status:
+## Average Price by Country/Rocket/Company:
+
+
+<br/><br/>
+
+## Total Cost by Year:
+
+
+<br/><br/>
+
+## Mission by Rocket Status:
 
 
 
