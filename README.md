@@ -3,7 +3,7 @@
 
 # Introduction:
 
-This project aims to analyze and visualize diverse high school student data using Power BI. The dataset includes various demographic factors, academic metrics, and lifestyle variables, providing valuable insights into the factors influencing student performance.
+This project was created in order to obtain more knowledge in the field for a job interview. It aims to analyze and visualize diverse high school student data using Power BI. The dataset includes various demographic factors, academic metrics, and lifestyle variables, providing valuable insights into the factors influencing student performance.
 
 
 <br/><br/>
