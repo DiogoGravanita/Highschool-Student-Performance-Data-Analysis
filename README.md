@@ -26,7 +26,7 @@ The data set was downloaded from the following website: https://www.kaggle.com/d
 
 
 
-## Charts and Visualizations:
+# Charts and Visualizations:
 <br/><br/>
 We'll create a variety of charts and visualizations to present the data effectively:
 
@@ -51,7 +51,7 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 <br/><br/>
 
-## Tools and Technologies:
+# Tools and Technologies:
 
  - Microsoft SQL Server Management Studio for data manipulation and analysis.
  - PowerBI for data visualization and statistical analysis.
@@ -59,7 +59,7 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 <br/><br/>
 
-## Column Attribute Explanation: 
+# Column Attribute Explanation: 
 
  - school - student's school (binary: "GP" - Gabriel Pereira or "MS" - Mousinho da Silveira)
 
@@ -501,7 +501,7 @@ GROUP BY CASE
 
 <br/><br/>
 
-### Power BI Enhancements:
+# Power BI Enhancements:
 
 - Conditional Sorting Columns:
 Created two conditional sorting columns for travel time and study time to facilitate better visualization and analysis.
@@ -521,9 +521,9 @@ Converted the "internet access" column from a boolean to a string format. This m
 
 <br/><br/>
 
-### Data visualization:
+# Data visualization:
 
-### Summary of Dashboard Insights
+## Summary of Dashboard Insights
 
 
 
