@@ -547,7 +547,7 @@ Students with fathers employed in teaching exhibit higher average grades, likely
 The majority of students reside in urban areas, potentially indicating different educational and environmental factors compared to rural counterparts.
 
 - Internet Access and Travel Time:
-Students with internet access tend to achieve higher grades, suggesting a correlation between digital resources and academic success. Additionally, shorter travel times to school positively impact student performance, with most high-performing students having a commute of 15 minutes or less.
+Students with internet access tend to achieve higher grades, suggesting a correlation between digital resources and academic success. Additionally, shorter travel times to school have a big positive impact on student performance, with most high-performing students having a commute of 15 minutes or less as can be observed by the table next to the Travel Time Graph.
 
 - Free Time Distribution:
 Free time distribution among students varies, with a significant portion reporting average to low free time availability. Understanding these dynamics can inform strategies to balance academic workload and leisure activities effectively.
