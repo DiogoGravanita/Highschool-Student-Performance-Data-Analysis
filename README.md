@@ -523,7 +523,7 @@ Converted the "internet access" column from a boolean to a string format. This m
 
 # Data visualization:
 
-## Summary of Dashboard Insights
+## Summary of Dashboard Insights and Findings:
 
 
 
