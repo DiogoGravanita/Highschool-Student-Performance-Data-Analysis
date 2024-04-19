@@ -580,7 +580,11 @@ Free time distribution among students varies, with a significant portion reporti
 <br/><br/>
 ## Address Type affect on Performance:
 
+Students living in a Rural Area get an average of 9.5 out of 20 whereas students in an Urban Area get 10.6 out of 20. This is a significant descrepancy which shows the effect on the living area on the performance. This can be correlated to the travel time to school which seemingly affects performance as the school is located most certainly in an Urban area which is validated by the bigger percentage of students living in an Urban area and the ones coming from a Rural one require a bigger travel time.
 
+Also this is not entirely correlated by it's possible that some students living in a Rural Area might be living in worse conditions thatn the ones living in an urban area leading to a decreased studying environment at home. 
+
+Also according to one of our queries, 20% of the students living in the Rural area do not have internet access whereas only 10% of those living in an urban area lack the internet access. All these factors can be intertwined to explain worse school performance.
 
 <br/><br/>
 
