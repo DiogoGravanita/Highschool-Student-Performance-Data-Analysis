@@ -550,7 +550,7 @@ The majority of students reside in urban areas, potentially indicating different
 Students with internet access tend to achieve higher grades, suggesting a correlation between digital resources and academic success. Additionally, shorter travel times to school have a big positive impact on student performance, with most high-performing students having a commute of 15 minutes or less as can be observed by the table next to the Travel Time Graph.
 
 - Free Time Distribution:
-Free time distribution among students varies, with a significant portion reporting average to low free time availability. Understanding these dynamics can inform strategies to balance academic workload and leisure activities effectively.
+Free time distribution among students varies, with a significant portion reporting average to high free time availability. Understanding these dynamics can inform strategies to balance academic workload and leisure activities effectively.
 
 
 <br/><br/>
@@ -562,6 +562,7 @@ Free time distribution among students varies, with a significant portion reporti
 
 ## Dashboard image:
 <br/><br/>
+![image](https://github.com/DiogoGravanita/Highschool-Student-Performance-Data-Analysis/assets/163042130/7422dc56-99d6-46b2-b458-4adb6db4a45d)
 
 <br/><br/>
 
